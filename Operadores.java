@@ -40,6 +40,7 @@ public class Operadores {
         g /= 5;  // g = g / 5;
         g %= 5;  // g = g % 5;        
 
+        System.out.println(g);
     }
 
 }
