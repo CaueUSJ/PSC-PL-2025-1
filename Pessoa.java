@@ -12,4 +12,20 @@ public class Pessoa {
         this.email = email;
     }
 
+    public static String getNome(){
+        return nome;
+    }
+
+    public static int getIdade(){
+        return idade;
+    }
+    
+    public static double getAltura(){
+        return altura;
+    }
+
+    public static String getEmail(){
+        return email;
+    }
+
 }

@@ -10,4 +10,9 @@ public class Professor extends Pessoa{
         this.matricula = matricula;
     }
 
+    public static String getMatricula(){
+        return matricula;
+    }
+
+
 }
