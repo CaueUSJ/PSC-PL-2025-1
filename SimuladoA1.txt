@@ -1,0 +1,55 @@
+1.  A varivel "temperatura" está dentro de uma condicinal if else, se o valor for menor que 18, será retornado ("Clima frio.").
+Caso seja maior ou igual a 18 e menor ou igual a 27, será retornado ("Clima agradável."), igual na afirmação 'a'.
+E se o valor for maior que 27, será retornado ("Clima quente."), na afirmação 'b' retornou ("Clima quente."),
+portanto, o valor de entrada foi maior que 27.
+
+2.a) Um atributo com encapsulamento private, significa que ele só pode ser usado ou modificado diretamente dentro da própria classe que
+foi declarada. Para outras classes poderem modificar ou acessa-las, deveram utilizar os métodos set ou get da classe.
+
+b) Os métodos get e set são utilizados para ter vissibilidade de atributos privados, os get servem para retornar o valor do atributo,
+ e o metodo set para modifica-ló passando um valor por parâmetro.
+
+c) Uma variavel publica tem acessibilidade por todas as classes, enquanto as privadas só podem ser usadas pela própria classe.
+
+d) public class Livro{
+	private String titulo;
+	private String autor;
+	private int quantidadeDisponivel;
+
+	public void setTitulo(String titulo){
+		this.titulo = titulo;
+	}
+	
+	public String getTitulo(){
+		return this.titulo;
+	}
+
+	public void setAutor(String autor){
+		this.autor = autor;
+	}
+	
+	public String getAutor(){
+		return this.autor;
+	}
+
+	public void setQuantidadeDisponivel(int quantidadeDisponivel){
+		this.quantidadeDisponivel = quantidadeDisponivel;
+	}
+	
+	public int getQuantidadeDisponivel(){
+		return this.quantidadeDisponivel;
+	}
+}
+
+e) Encapsular uma variavel significa proteger a acessibilidade da mesma, se o atributo for public, todas as classes podem acessa-lá, 
+se for protected somente a própria classe e as subclasses podem acessa-lá, se for private somente a própria classe pode acessa-lá.
+
+3.a) Sobrecarga de construtores acontece quando se utiliza multiplos construtores na mesma classe com o mesmo nome, essa técnica é util 
+para dar mais flexibilidade para a criação do objeto. As três maneiras são: 
+1. Criando os construtores com a quantidade de variaveis diferentes dentro do parametro.
+2. Criando os construtores com a quantidade igual de variaveis dentro do parametros, mas com os tipos das variaveis diferentes.
+3. Criando os construtores com a quantidade igual de variaveis dentro do parametros, com os mesmos tipos das variaveis, mas com a ordem diferente.
+
+b) p1 será chamado o consrutor 1.
+p2 será chamado o consrutor 2.
+p3 será chamado o consrutor 3.
