@@ -14,5 +14,7 @@ public class Entrada{
 
         System.out.println("Olá " + nome + ", você têm " + idade + " anos!");
 
+        scanner.close();
+
     }
 }
