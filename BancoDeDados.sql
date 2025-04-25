@@ -11,3 +11,5 @@ nota decimal (3,1) /*primeiro parametro: quantidade de algorismo, segundo argume
 
 SHOW TABLES;
 describe aluno;
+
+alter table aluno add column telefone varchar(20);
