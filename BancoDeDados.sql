@@ -9,7 +9,12 @@ ra int not null,
 nota decimal (3,1) /*primeiro parametro: quantidade de algorismo, segundo argumento: quantidade de casas decimais*/
 );
 
+ALTER TABLE aluno ADD senha VARCHAR(255);
+
 SHOW TABLES;
 describe aluno;
+
+INSERT INTO Produtos
+VALUES (1, 'Notebook', 1200.00);
 
 alter table aluno add column telefone varchar(20);
